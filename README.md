@@ -45,5 +45,30 @@ Follow these steps to set up the project locally:
   ```bash
   python manage.py runserver
 
+### Usage
+- Enter the car's details in the input form (car name, year, mileage, engine power, etc.).
+- Click the **Submit** button to get the predicted selling price.
+- The result will be displayed below the form.
+
+### Folder Structure
+
+- **db.sqlite3**: SQLite database file.
+- **manage.py**: Django management script.
+- **requirements.txt**: Python dependencies.
+- **runtime.txt**: Python version used.
+- **index.html**: Frontend for the web interface.
+- **carsellingpriceprediction.py**: ML model for predicting the car price.
+- **Django App Files**:
+  - `admin.py`, `apps.py`, `models.py`, `tests.py`, `views.py`, `urls.py`
+  - `settings.py`, `asgi.py`, `wsgi.py`
+
+### Technologies Used
+
+- **Django**: Web framework for the backend.
+- **HTML/CSS**: Frontend design.
+- **Scikit-learn**: Machine learning model.
+- **Pandas & NumPy**: Data manipulation and processing.
+- **SQLite**: Database for storing information.
+
 
   
