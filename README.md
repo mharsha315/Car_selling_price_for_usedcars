@@ -29,7 +29,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/mharsha315/Car_selling_price_for_usedcars.git
    cd car-selling-price-prediction
 2. ### Install Dependencies
 - Ensure Python 3.7.10 is installed (as specified in `runtime.txt`).
