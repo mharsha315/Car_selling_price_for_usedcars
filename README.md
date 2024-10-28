@@ -31,3 +31,19 @@ Follow these steps to set up the project locally:
    ```bash
    git clone <your-repository-url>
    cd car-selling-price-prediction
+2. ### Install Dependencies
+- Ensure Python 3.7.10 is installed (as specified in `runtime.txt`).
+- Install the dependencies from `requirements.txt`:
+  ```bash
+  pip install -r requirements.txt
+3. ### Set Up the Database
+- Run the following command to create the necessary tables in the SQLite database:
+  ```bash
+  python manage.py migrate
+4. ### Run the Application
+- Start the Django development server:
+  ```bash
+  python manage.py runserver
+
+
+  
